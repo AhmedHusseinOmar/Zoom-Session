@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 40px;
+  padding: 20px;
+  display: flex;
+  background-color: black;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+main {
+  background-color: rgb(47, 9, 9);
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 15px;
+  font-size: medium;
+  color: rgb(228, 229, 238);
+}
+main div {
+  display: flex;
+  background-color: black;
+  justify-content: space-between;
+  align-items: end;
+  color: white;
+  height: 300px;
+  width: 300px;
+  border-radius: 10px;
+}
+main div:nth-child(1) {
+  background-image: url("../../assets/student-1.jpeg");
+}
+main div:nth-child(2) {
+  background-image: url("../../assets/student-2.jpeg");
+}
+main div:nth-child(3) {
+  background-image: url("../../assets/student-3.jpeg");
+}
+main div:nth-child(4) {
+  background-image: url("../../assets/student-4.jpeg");
+}
+main div:nth-child(5) {
+  background-image: url("../../assets/student-5.jpeg");
+}
+main div:nth-child(6) {
+  background-image: url("../../assets/student-6.jpeg");
+}
+main div:nth-child(7) {
+  background-image: url("../../assets/student-7.jpeg");
+}
+main div:nth-child(8) {
+  background-image: url("../../assets/student-8.jpeg");
+}
+main div:nth-child(9) {
+  background-image: url("../../assets/student-9.jpeg");
+}
+main div span {
+  background-color: rgba(41, 19, 16, 0.564);
+  border-radius: 10px;
+  font-size: medium;
+  padding: 5px;
+}
+main div i {
+  color: green;
+  font-size: 30px;
+}
+
+footer {
+  padding: 20px 0;
+  display: flex;
+  background-color: black;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  position: fixed;
+  bottom: 0;
+  color: white;
+  width: 100%;
+}
+footer div {
+  display: flex;
+  background-color: black;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  flex-direction: column;
+}
+footer div i {
+  font-size: 30px;
+  padding-bottom: 10px;
+  color: green;
+}
+footer div input {
+  border: none;
+  padding: 12px 40px;
+  font-size: 25px;
+  border-radius: 5px;
+  background-color: red;
+  color: white;
+}/*# sourceMappingURL=style.css.map */
