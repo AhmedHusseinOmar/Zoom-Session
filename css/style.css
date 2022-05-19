@@ -33,31 +33,31 @@ main div {
   border-radius: 10px;
 }
 main div:nth-child(1) {
-  background-image: url("../../assets/student-1.jpeg");
+  background-image: url("../images/student-1.jpeg");
 }
 main div:nth-child(2) {
-  background-image: url("../../assets/student-2.jpeg");
+  background-image: url("../images/student-2.jpeg");
 }
 main div:nth-child(3) {
-  background-image: url("../../assets/student-3.jpeg");
+  background-image: url("../images/student-3.jpeg");
 }
 main div:nth-child(4) {
-  background-image: url("../../assets/student-4.jpeg");
+  background-image: url("../images/student-4.jpeg");
 }
 main div:nth-child(5) {
-  background-image: url("../../assets/student-5.jpeg");
+  background-image: url("../images/student-5.jpeg");
 }
 main div:nth-child(6) {
-  background-image: url("../../assets/student-6.jpeg");
+  background-image: url("../images/student-6.jpeg");
 }
 main div:nth-child(7) {
-  background-image: url("../../assets/student-7.jpeg");
+  background-image: url("../images/student-7.jpeg");
 }
 main div:nth-child(8) {
-  background-image: url("../../assets/student-8.jpeg");
+  background-image: url("../images/student-8.jpeg");
 }
 main div:nth-child(9) {
-  background-image: url("../../assets/student-9.jpeg");
+  background-image: url("../images/student-9.jpeg");
 }
 main div span {
   background-color: rgba(41, 19, 16, 0.564);
